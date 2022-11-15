@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  imageUrl: MyString
+  race: MyString
+  hurt: false
+
+two:
+  name: MyString
+  imageUrl: MyString
+  race: MyString
+  hurt: false

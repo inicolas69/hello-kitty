@@ -1,0 +1,11 @@
+<h1>Pets index</h1>
+
+<ol>
+  <% @pets.each do |pet| %>
+    <%= link_to pet_path(pet) do %>
+      <li><%= pet.name %> - <%= pet.race %></li>
+    <% end %>
+  <% end %>
+</ol>
+
+<%= link_to "Report a pettttt", new_pet_path %>

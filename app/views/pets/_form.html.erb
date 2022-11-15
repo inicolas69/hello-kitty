@@ -1,0 +1,11 @@
+<%= form_with model: pet do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :race %>
+  <%= f.select :race, %w(dog cat rabbit snake turtle)%>
+  <%= f.label :hurt %>
+  <%= f.check_box :hurt %>
+  <%= f.label :imageUrl %>
+  <%= f.text_field :imageUrl %>
+  <%= f.submit %>
+<% end %>
